@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.project-tile {
+    order: 1;
+    align-self: auto;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
