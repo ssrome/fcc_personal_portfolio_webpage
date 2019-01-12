@@ -1,17 +1,122 @@
-.navbar {
-    position: fixed;
+@media (min-width: 220px) { 
+    body{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(12, 12, 54);
+    }
+    nav#navbar{
+        overflow: hidden;
+        background-image: url("../img/qbkls.png");
+        background-color: rgb(240, 238, 238);
+        position: fixed; 
+        top: 0;
+        width: 100%;
+        margin: 0 -10px 0 -10px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    li{
+        display: inline-block;
+        font-size: 1.1em;
+        padding: 0 15px;
+        text-align: center;
+    }
+    ul#nav-links{
+        padding-left: 70px;
+    }
+    li#navbar{
+        padding: 0px 35px;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    a:hover {
+        background: #ddd;
+        color: black;
+      }
+    #welcome-section {
+        margin: 50px -10px 0 -10px;
+        height: 100vh;
+        background-image: url("../img/qbkls.png");
+    }
+    h1#title{
+        text-align: center;
+        padding-top: 40%;
+    }
+    h2{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .project-tile{
+        text-align: center;
+    }
+    h3{
+        font-size: 1em;
+    }
+    img {
+        width: 80%;
+        align-self: center;
+        border: 2px solid #000;
+    }
+    #contact{
+        background-color: rgb(226, 64, 64);
+        padding: 2px;
+        margin: 0 -10px;
+        text-align: center;
+    }
+    li.contact-link{
+        padding: 35px;
+        border: 3px solid #000;
+        border-radius: 40%;
+        background-color: aliceblue;
+        margin: 10px 10px;
+    }
+    #copyright{
+        float: right;
+        padding: 3% 10% 4% 0;
+    }
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+@media (min-width: 768px) { 
+    #welcome-section{
+        height: 100vh;
+        text-align: center;
+    }
+    h1#title{
+        padding-top: 20%;
+    }
+    #navbar{
+        font-size: 1.4em;
+    }
+    ul#nav-links{
+        padding-left: 180px;
+    }
+    li#navbar{
+        padding: 0px 115px;
+    }
+    li{
+        padding-right: 80px;
+    }
+    .project-tile {
+        order: 1;
+        align-self: auto;
+        width: 50%;
+        margin: auto;
+    }
 
-.project-tile {
-    order: 1;
-    align-self: auto;
-    width: 400px;
-    height: 200px;
-    margin: auto;
 }
