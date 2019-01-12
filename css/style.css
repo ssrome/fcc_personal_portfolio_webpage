@@ -48,6 +48,7 @@
         margin: 50px -10px 0 -10px;
         height: 100vh;
         background-image: url("../img/qbkls.png");
+        background-color: rgb(240, 238, 238);
     }
     h1#title{
         text-align: center;

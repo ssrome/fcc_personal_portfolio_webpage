@@ -15,6 +15,6 @@ The challenge was to build a CodePen app with the following requirements.
 10. The height of the welcome section should be equal to the height of the viewport.
 11. The navbar should always be at the top of the viewport.
 
-The project had to be run against test [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
+The project had to be run against tests [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-[My Build a Personal Portfolio Webpage on Codepen] ()
+My Build a Personal Portfolio Webpage on [Codepen](https://codepen.io/ssrome/full/WLYKPx) and [Github Pages](https://ssrome.github.io/fcc_personal_portfolio_webpage/)
