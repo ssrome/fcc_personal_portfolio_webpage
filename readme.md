@@ -17,4 +17,4 @@ The challenge was to build a CodePen app with the following requirements.
 
 The project had to be run against tests [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-My Build a Personal Portfolio Webpage on [Codepen](https://codepen.io/ssrome/full/WLYKPx) and [Github Pages](https://ssrome.github.io/fcc_personal_portfolio_webpage/)
+My Build a Personal Portfolio Webpage on [Github Pages](https://ssrome.github.io/fcc_personal_portfolio_webpage/)

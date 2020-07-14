@@ -1,4 +1,4 @@
-@media (min-width: 220px) { 
+@media all and (min-width: 220px) { 
     body{
         font-family: 'Ubuntu', sans-serif;
     }
@@ -93,7 +93,7 @@
     }
 }
 
-@media (min-width: 768px) { 
+@media all and (min-width: 768px) { 
     #welcome-section{
         height: 100vh;
         text-align: center;
